@@ -1,0 +1,19 @@
+﻿<div class="card-content">
+    <div class="content">
+        <div class="name">@Name</div>
+        <div class="description">@Description</div>
+    </div>
+
+    <style>
+        .list {
+            background-color: aliceblue !important;
+            border-radius: 29px;
+            box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+        }
+    </style>
+</div>
+
+@code {
+    [Parameter] public string Name { get; set; }
+    [Parameter] public string Description { get; set; }
+}

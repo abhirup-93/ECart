@@ -22,7 +22,7 @@ public class ProductData : IProductData
             {
                 Id = 10,
                 Name = "Strawberries",
-                Description = "16oz package of fresh organic strawberries",
+                Description = "16oz package of fresh organic strawberries cli",
                 Quantity = 1
             },
             new Product

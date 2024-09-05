@@ -1,0 +1,14 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "ecartconfigswa": {
+      "appLocation": "bin\\publish\\wwwroot\\",
+      "apiLocation": "Api",
+      "outputLocation": ".",
+      "apiLanguage": "dotnetisolated",
+      "apiVersion": "6.0",
+      "appName": "azswaecartapp",
+      "resourceGroup": "RG-AbhirupRoy-AppMigration"
+    }
+  }
+}
